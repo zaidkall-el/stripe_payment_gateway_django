@@ -5,7 +5,7 @@ from rest_framework import status
 from django.http.response import JsonResponse
 from rest_framework.decorators import api_view
 import stripe
-stripe.api_key='sk_test_51KH7A5Ge6pU7vgD9MCGA76CfaPFx3NqNGowKSUXJut3nnEtkvlhrYeSSvELgpzHS6JtAbEIUWQ6fgCsfZVNRFcf500smKKCEzK'
+stripe.api_key=''
 @api_view(['POST'])
 def post(request):
     if request.method == 'POST':
